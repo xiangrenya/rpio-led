@@ -1,0 +1,21 @@
+{
+  "name": "rpio-led",
+  "version": "1.0.0",
+  "description": "a demo of controlling an LED with Raspberry Pi's GPIO",
+  "main": "",
+  "scripts": {
+    "blink": "node blink.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Raspberry Pi",
+    "GPIO"
+  ],
+  "author": "Allen",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^8.0.5",
+    "koa": "^2.11.0",
+    "rpio": "^1.3.0"
+  }
+}
