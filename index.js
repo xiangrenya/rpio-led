@@ -17,6 +17,7 @@ const router = new Router();
 
 router.get('/', (ctx, next) => {
   blink();
+  console.log('欢迎光临树莓派');
   ctx.body = {
     success: true
   }
