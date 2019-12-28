@@ -10,4 +10,4 @@ function blink() {
 	rpio.write(TARGET_PIN, rpio.LOW);
 }
 
-setInterval(blink, 1000);
+setInterval(blink, 2000);
